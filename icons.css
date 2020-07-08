@@ -1,0 +1,428 @@
+.ico-play {
+    display: block;
+    border-top: 50px solid transparent;
+    border-left: 70px solid #000;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    transform: translateX(25%);
+}
+
+
+.ico-pause,
+.ico-pause::before {
+    display: block;
+    width: 20px;
+    height: 80px;
+    background-color: #000;
+}
+
+.ico-pause {
+    margin-left: -30px;
+}
+
+.ico-pause::before {
+    content: '';
+    margin-left: 30px;
+}
+
+
+.ico-next,
+.ico-next::before {
+    display: block;
+    background-color: #000;
+}
+
+.ico-next {
+    width: 20px;
+    height: 50px;
+
+    position: relative;
+    bottom: -25px;
+
+    transform: rotate(-135deg);
+}
+
+.ico-next::before {
+    content: '';
+
+    width: 20px;
+    height: 70px;
+
+    transform: rotate(90deg);
+
+    position: absolute;
+    bottom: -45px;
+    left: 25px;
+}
+
+
+.ico-prev,
+.ico-prev::before {
+    display: block;
+    background-color: #000;
+}
+
+.ico-prev {
+    width: 20px;
+    height: 50px;
+
+    position: relative;
+    bottom: 25px;
+
+    transform: rotate(45deg);
+}
+
+.ico-prev::before {
+    content: '';
+
+    width: 20px;
+    height: 70px;
+
+    transform: rotate(90deg);
+
+    position: absolute;
+    bottom: -45px;
+    left: 25px;
+}
+
+
+.ico-plus,
+.ico-plus::before {
+    display: block;
+    width: 20px;
+    height: 80px;
+    background-color: #000;
+}
+
+.ico-plus::before {
+    content: '';
+    transform: rotate(90deg);
+}
+
+
+.ico-close,
+.ico-close::before {
+    display: block;
+    width: 15px;
+    height: 80px;
+    background-color: #000;
+}
+.ico-close {
+    transform: rotate(45deg);
+}
+
+.ico-close::before {
+    content: '';
+    transform: rotate(90deg);
+}
+
+
+.ico-search {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #000;
+    border-radius: 50%;
+
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+.ico-search::before {
+    content: '';
+
+    display: block;
+    width: 10px;
+    height: 30px;
+    background-color: #000;
+
+    position: absolute;
+    bottom: -25px;
+    right: -15px;
+
+    transform: rotate(-45deg);
+}
+
+
+.ico-menu,
+.ico-menu::before,
+.ico-menu::after {
+    display: block;
+    width: 80px;
+    height: 15px;
+    background-color: #000;
+}
+
+.ico-menu {
+    position: relative;
+}
+
+.ico-menu::before,
+.ico-menu::after {
+    content: '';
+    position: absolute;
+}
+
+.ico-menu::after {
+    top: -25px;
+}
+
+.ico-menu::before {
+    bottom: -25px;
+}
+
+
+.ico-checked,
+.ico-checked::before {
+    display: block;
+    background-color: #000;
+}
+
+.ico-checked {
+    width: 20px;
+    height: 45px;
+
+    position: relative;
+    left: -25px;
+
+    transform: rotate(-50deg);
+}
+
+.ico-checked::before {
+    content: '';
+
+    width: 20px;
+    height: 80px;
+
+    transform: rotate(90deg);
+
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+}
+
+
+.ico-cloud,
+.ico-cloud::after,
+.ico-cloud::before {
+    display: block;
+    background-color: #000;
+    border-radius: 40px;
+}
+
+.ico-cloud {
+    width: 90px;
+    height: 40px;
+
+    position: relative;
+    bottom: -10px;
+}
+
+.ico-cloud::after,
+.ico-cloud::before {
+    content: '';
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.ico-cloud::after {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+
+    left: 15px;
+    top: -15px;
+}
+
+.ico-cloud::before {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+
+    right: 5px;
+    top: -20px;
+}
+
+
+.ico-heart,
+.ico-heart::before {
+    display: block;
+    width: 40px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 20px 20px 0 0;
+}
+
+.ico-heart {
+    position: relative;
+    top: -5px;
+    left: -5px;
+
+    transform: rotate(-45deg);
+}
+
+.ico-heart::before {
+    content: '';
+    
+    transform: rotate(90deg);
+
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+
+
+.ico-location {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+
+    position: relative;
+    top: -5px;
+}
+
+.ico-location::before,
+.ico-location::after {
+    content: '';
+    display: block;
+
+    position: absolute;
+}
+
+.ico-location::before {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+    top: 18px;
+    left: 18px;
+}
+
+.ico-location::after {
+    border-top: 20px solid transparent;
+    border-left: 30px solid #000;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    
+    transform: rotate(90deg);
+
+    bottom: -35px;
+    left: 5px;
+}
+
+
+.ico-bookmark,
+.ico-bookmark::after {
+    display: block;
+
+    border-top: 30px solid #000;
+    border-left: 20px solid #000;
+    border-right: 0px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    position: relative;
+    left: -10px;
+}
+
+.ico-bookmark::after {
+    content: '';
+
+    transform: scale(-1, 1);
+
+    position: absolute;
+    top: -30px;
+    left: 0;
+
+}
+
+
+.ico-star,
+.ico-star::before,
+.ico-star::after {
+    display: block;
+}
+
+.ico-star::before,
+.ico-star::after {
+    content: '';
+
+    position: absolute;
+}
+
+.ico-star,
+.ico-star::after {
+    border-right:  40px solid transparent;
+    border-bottom: 30px  solid #000;
+    border-left:   40px solid transparent;
+ }
+
+.ico-star {
+    transform: rotate(35deg);
+    
+    position: relative;
+    right: -5px;
+}
+ 
+.ico-star::after {
+    transform: rotate(-70deg);
+    top: 5px;
+    left: -45px;
+}
+
+.ico-star::before {
+    border-bottom: 20px solid black;
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    
+    transform: rotate(-150deg);
+    
+    top: -8px;
+    left: -32px;
+}
+
+
+.ico-send,
+.ico-send::before {
+    display: block;
+
+    border-right:  55px solid transparent;
+    border-bottom: 20px  solid #000;
+    border-left:   20px solid transparent;
+}
+
+.ico-send {
+    position: relative;
+
+    transform: rotate(-40deg);
+ }
+
+.ico-send::before {
+    content: '';
+
+    transform: scale(1, -1) rotate(-42deg);
+
+    position: absolute;
+    top: -9px;
+    left: -16px;
+}
+
+
+.ico-pacman {
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: transparent;
+
+    border-left: 40px solid #000;
+    border-bottom: 40px solid #000;
+    border-radius: 40px 0 40px 40px;
+
+    transform: rotate(45deg);
+}
